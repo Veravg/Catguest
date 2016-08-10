@@ -22,12 +22,17 @@
 
 <p>
   <strong>Image url:</strong>
-  <%= @cat.image_url %>
+  <%= image_tag @cat.image_url %>
 </p>
 
 <p>
   <strong>Price:</strong>
   <%= @cat.price %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cat.description %>
 </p>
 
 <%= link_to 'Edit', edit_cat_path(@cat) %> |
