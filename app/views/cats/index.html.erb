@@ -22,7 +22,7 @@
         <td><%= cat.age %></td>
         <td><%= cat.color %></td>
         <td><%= cat.gender %></td>
-        <td><%= cat.image_url %></td>
+        <td><%= image_tag cat.image_url %></td>
         <td><%= cat.price %></td>
         <td><%= link_to 'Show', cat %></td>
         <td><%= link_to 'Edit', edit_cat_path(cat) %></td>
