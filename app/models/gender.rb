@@ -8,7 +8,7 @@ class Gender
       FEMALE => "female"
     }
   end
-
+  
   def initialize(bool)
     @bool = bool
   end
