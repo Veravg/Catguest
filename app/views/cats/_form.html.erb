@@ -27,9 +27,12 @@
   </div>
 
   <div class="field">
-    <%= f.label :gender %>
-    <%= f.check_box :gender %>
-  </div>
+      <div class="line">
+       <%= f.label :gender %>
+     </div>
+       <span class="option">Male <span><%= f.radio_button :gender, "m" %></br>
+       <span class="option">Female <span><%= f.radio_button :gender, "f" %></br>
+    </div>
 
   <div class="field">
     <%= f.label :image_url %>
